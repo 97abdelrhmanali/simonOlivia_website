@@ -1,0 +1,184 @@
+@keyframes header{
+/****************** fin ***********************/
+0%{content: "I'm|";}
+1%{content: "I'm S|";}
+2%{content: "I'm Si|";}
+3%{content: "I'm Sim|";}
+4%{content: "I'm Simo|";}
+5%{content: "I'm Simon|";}
+6%{content: "I'm Simon O|";}
+7%{content: "I'm Simon Ol|";}
+8%{content: "I'm Simon Oli|";}
+9%{content: "I'm Simon Oliv|";}
+10%{content: "I'm Simon Olivi|";}
+11%{content: "I'm Simon Olivia|";}
+15%{content: "I'm Simon Olivia ";}
+17%{content: "I'm Simon Olivia|";}
+18%{content: "I'm Simon Oliva";}
+19%{content: "I'm Simon Ol|";}
+20%{content: "I'm Simon|";}
+21%{content: "I'm Sim|";}
+22%{content: "I'm S|";}
+23%{content: "I'm|";}
+/********************************************/
+/********************** fin ************************/
+24%{content: "I'm a|";}
+25%{content: "I'm a F|";}
+26%{content: "I'm a Fr|";}
+27%{content: "I'm a Fre|";}
+28%{content: "I'm a Free|";}
+29%{content: "I'm a Freel|";}
+30%{content: "I'm a Freela|";}
+31%{content: "I'm a Freelan|";}
+32%{content: "I'm a Freelanc|";}
+33%{content: "I'm a Freelance|";}
+34%{content: "I'm a Freelancer.|";}
+37%{content: "I'm a Freelancer. ";}
+39%{content: "I'm a Freelancer.|";}
+40%{content: "I'm a Freelancer|";}
+41%{content: "I'm a Freelanc|";}
+42%{content: "I'm a Freela|";}
+43%{content: "I'm a Free|";}
+44%{content: "I'm a Fr|";}
+45%{content: "I'm a F|";}
+46%{content: "I'm a|";}
+/******************************************************/
+ /*************************************************/
+ 47%{content: "I'm a p|";}
+ 48%{content: "I'm a ph|";}
+ 49%{content: "I'm a pho|";}
+ 50%{content: "I'm a phot|";}
+ 51%{content: "I'm a photo|";}
+ 52%{content: "I'm a photog|";}
+ 53%{content: "I'm a photogr|";}
+ 54%{content: "I'm a photogra|";}
+ 55%{content: "I'm a photograp|";}
+ 56%{content: "I'm a photograph|";}
+ 57%{content: "I'm a photographe|";}
+ 58%{content: "I'm a photographer|";}
+ 59%{content: "I'm a photographer.|";}
+ 62%{content: "I'm a photographer. ";}
+ 65%{content: "I'm a photographer.|";}
+ 66%{content: "I'm a photographer|";}
+ 67%{content: "I'm a photograph|";}
+ 68%{content: "I'm a photog|";}
+ 69%{content: "I'm a phot|";}
+ 70%{content: "I'm a ph|";}
+ 71%{content: "I'm a p|";}
+ 72%{content: "I'm a|";}
+/******************************************************/  
+    /**************************************/
+    73%{content: "I'm a D|";}
+    74%{content: "I'm a De|";}
+    75%{content: "I'm a Des|";}
+    76%{content: "I'm a Desi|";}
+    77%{content: "I'm a Desin|";}
+    78%{content: "I'm a Desing|";}
+    79%{content: "I'm a Desingn|";}
+    80%{content: "I'm a Desingne|";}
+    81%{content: "I'm a Desingner|";}
+    82%{content: "I'm a Desingner.|";}
+    86%{content: "I'm a Desingner. ";}
+    89%{content: "I'm a Desingner.|";}
+    90%{content: "I'm a Desingne|";}
+    91%{content: "I'm a Des|";}
+    92%{content: "I'm a D|";}
+    93%{content: "I'm a|";}
+    94%{content: "I'm|";}
+    95%{content: "I|";}
+    96%{content: "|";}
+    98%{content: "I|";}
+    100%{content: "I'm|";}
+    /*********************************************/   
+}
+
+
+
+
+
+@keyframes counter10{
+    0%{content: "0+";}
+    10%{content: "1+";}
+    20%{content: "2+";}
+    30%{content: "3+";}
+    40%{content: "4+";}
+    50%{content: "5+";}
+    60%{content: "6+";}
+    70%{content: "7+";}
+    80%{content: "8+";}
+    90%{content: "9+";}
+    100%{content: "10+";}
+}
+
+
+
+@keyframes counter250{
+    0%{content: "0+";}
+    10%{content: "10+";}
+    20%{content: "40+";}
+    30%{content: "60+";}
+    40%{content: "80+";}
+    50%{content: "100+";}
+    60%{content: "130+";}
+    70%{content: "160+";}
+    80%{content: "190+";}
+    90%{content: "220+";}
+    100%{content: "250+";}
+}
+
+@keyframes counter650{
+    0%{content: "0+";}
+    10%{content: "100+";}
+    20%{content: "200+";}
+    30%{content: "300+";}
+    40%{content: "400+";}
+    50%{content: "500+";}
+    60%{content: "600+";}
+    70%{content: "610+";}
+    80%{content: "620+";}
+    90%{content: "640+";}
+    100%{content: "650+";}
+}
+
+@keyframes counter38{
+    0%{content: "0";}
+    10%{content: "5";}
+    20%{content: "10";}
+    30%{content: "15";}
+    40%{content: "20";}
+    50%{content: "30";}
+    60%{content: "31";}
+    70%{content: "33";}
+    80%{content: "35";}
+    90%{content: "37";}
+    100%{content: "38";}
+}
+
+
+
+@keyframes scroll_down{
+    0%{ top: 0;   opacity: 0;}
+    10%{ top: 10%;   opacity: 0.2;}
+    20%{ top: 20%;   opacity: 0.5;}
+    30%{ top: 30%;   opacity: 0.8;}
+    40%{ top: 40%;   opacity: 1;}
+    50%{ top: 50%;   opacity: 1;}
+    60%{ top: 60%;   opacity: 1;}
+   
+    
+    
+    
+
+}
+
+
+/* @keyframes opacity_down{
+    from{
+        opacity: 1;
+
+    }
+
+    to{
+        opacity: 0;
+    }
+} */

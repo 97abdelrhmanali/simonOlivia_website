@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.home{
+    height: 100vh;
+    background-image:linear-gradient(#121212bb ,#121212bb), url(images/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--webfont);
+}
+
+
+.home .content{
+    text-align: center;
+    width: 60%;
+}
+
+.home .content h1,p{
+    padding: 0.4em 0;
+}
+
+
+.home .content h1{
+    font-size: 59px;
+    color: white;
+    
+}
+
+.home .content h2{
+    font-size: 28px;
+}
+
+.home .content p{
+    font-size: 21px !important;
+    color: #dee3e4 !important;
+}
+
+
+.home .content button{
+    padding: 1.5em 3em;
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--fontclr);
+    border: var(--fontclr) 2px solid;
+    border-radius: 50rem;
+    font-size: 16px;
+    transition: all 1s;
+}
+
+
+.home .content button:hover{
+    color: white;
+    background-color: var(--fontclr);
+    cursor: pointer;
+}
+
+
+
+
+
+.home .content h1::after{
+    content: "";
+    animation: header 15s  infinite;
+}
+
+
+
+
+
+
+.down{
+   
+    width: 50px;
+    height: 60px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-self: end;
+    position: relative;
+    right: 31.5%;
+    
+}
+
+
+
+.down .icon{
+    position: absolute;
+    height: 25px;
+    opacity: 0;
+    animation: scroll_down 2s infinite;
+}

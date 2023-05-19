@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.container .hdabt{
+    font-size: 118px;
+    color: #dee3e4 !important;
+    width: 100%;
+    opacity: 0.4;
+    position: relative;
+      
+}
+
+
+.client_speak{
+    font-size: 36px;
+    opacity: 1;
+    color: black;
+    position: absolute;
+    left: 44%;
+    top: 9%;
+}
+
+.hdabt::after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    right: 47%;
+    top: 70%;
+} 
+
+
+
+.container .member{
+    width: 47%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    background-color: var(--divgray);
+}
+
+
+.member div{
+    margin: 1rem;
+}
+
+.member .hed{
+    align-self: center;
+}
+.container .member img{
+    border-radius: 50%;
+}
+
+
+
+.container .member .mcontent{
+    width: 100%;
+    line-height: 1.6;
+}

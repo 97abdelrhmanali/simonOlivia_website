@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    background-color: var(--divgray);
+}
+
+
+.container{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.container .hdabt{
+    font-size: 118px;
+    color: #dee3e4 !important;
+    width: 100%;
+    opacity: 0.4;
+    position: relative;
+      
+}
+
+
+.work{
+    font-size: 36px;
+    opacity: 1;
+    color: black;
+    position: absolute;
+    left: 44%;
+    top: 4%;
+}
+
+.hdabt::after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    right: 47%;
+    top: 70%;
+} 
+
+
+.img{
+    width: 30%;
+    margin: 0.8rem;
+}
+.img  .i img {
+    width: 100%;
+    height: 100%;
+    
+}
+.i{
+    margin: 1rem 0;
+    padding: 0;
+    position: relative;
+}
+
+
+
+
+
+.img .i .overlay{
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.57) , rgba(0, 0, 0, 0.57));
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.img .i .overlay::before{
+    content: "Project Title";
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+}
+
+.img .i .overlay::after{
+    content: "Gategory";
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+
+.img .i:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+

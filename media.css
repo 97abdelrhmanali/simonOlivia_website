@@ -1,0 +1,688 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  /********************************* GENERAL *******************************/
+  
+    .container{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .container .hdabt{
+        font-size: 75px;
+    }
+
+
+
+    .container .info,.container .details ,.container .ser_content ,.container .img ,.container .member,.container .radio, .container .address,.container .form,.container .left,.container .right{
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+
+    /********************************* about *******************************/
+    .container .info{
+        text-align: center;
+        
+    }
+
+    .container .know{
+        width: 40%;
+        top:2.5%;
+        left: 30%;
+        font-size: 24px;
+    }
+
+    .container .number .Danime{
+        width: 50%;
+    }
+
+
+
+
+
+    /************************* services ***************************************/
+
+    .container .what{
+        width: 40%;
+        top:2%;
+        left: 30%;
+        font-size: 24px;
+
+    }
+
+
+
+
+    /*********************** summary***************************************/
+
+    .container .resume{
+        width: 40%;
+        top:1.5%;
+        left: 26%;
+        font-size: 24px;
+
+    }
+
+
+
+    .summary .container .education , .summary .container .experience{
+        width: 90%;
+        margin: auto;
+
+    }
+
+
+    .summary .container .skills{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .summary .container .skills div{
+        width: 100%;
+    }
+
+
+    .summary .container button{
+        width: 40%;
+        margin: auto;
+    }
+
+    
+
+
+
+
+    /*********************** porfolio ************************************/
+
+    .container .work{
+        width: 40%;
+        top:0.5%;
+        left: 26%;
+        font-size: 24px;
+
+    }
+
+    .portfolio .container .img{
+        margin: 1rem;
+    }
+
+
+
+
+    /********************************  testominal ******************************/
+    .container .client_speak{
+        width: 40%;
+        top:2.5%;
+        left: 30%;
+        font-size: 24px;
+
+    }
+
+
+
+
+    /************************** contact ************************************/
+
+
+    .container .touch{
+        width: 40%;
+        top:2.5%;
+        left: 30%;
+        font-size: 24px;
+
+    }
+
+    .container .form{
+        flex-direction: column;
+        
+    }
+
+
+    .container .form .in{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+
+    .container .address{
+        text-align: center;
+    }
+
+    .container .address .contact{
+        margin: auto;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+     
+  /********************************* GENERAL *******************************/
+  
+  .container{
+    flex-direction: column;
+    width: 100%;
+}
+.container .hdabt{
+    font-size: 75px;
+}
+
+
+
+.container .info,.container .details ,.container .ser_content ,.container .img ,.container .member,.container .radio, .container .address,.container .form,.container .left,.container .right{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+
+/********************************* about *******************************/
+.container .info{
+    text-align: center;
+    
+}
+
+.container .know{
+    width: 40%;
+    top:2.5%;
+    left: 30%;
+    font-size: 24px;
+}
+
+.container .number .Danime{
+    width: 50%;
+}
+
+
+
+
+
+/************************* services ***************************************/
+
+.container .what{
+    width: 40%;
+    top:2%;
+    left: 30%;
+    font-size: 24px;
+
+}
+
+
+
+    /*********************** summary***************************************/
+
+    .container .resume{
+        width: 40%;
+        top:1.5%;
+        left: 26%;
+        font-size: 24px;
+
+    }
+
+
+
+    .summary .container .education , .summary .container .experience{
+        width: 90%;
+        margin: auto;
+
+    }
+
+
+    .summary .container .skills{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .summary .container .skills div{
+        width: 100%;
+    }
+
+    .summary .container button{
+        width: 40%;
+        margin: auto;
+    }
+
+
+
+
+/*********************** porfolio ************************************/
+
+.container .work{
+    width: 40%;
+    top:0.5%;
+    left: 26%;
+    font-size: 24px;
+
+}
+
+
+
+
+
+/********************************  testominal ******************************/
+.container .client_speak{
+    width: 40%;
+    top:2.5%;
+    left: 30%;
+    font-size: 24px;
+
+}
+
+
+
+
+/************************** contact ************************************/
+
+
+.container .touch{
+    width: 40%;
+    top:2.5%;
+    left: 30%;
+    font-size: 24px;
+
+}
+
+.container .form{
+    flex-direction: column;
+    
+}
+
+
+.container .form .in{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.container .address{
+    text-align: center;
+}
+
+.container .address .contact{
+    margin: auto;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+  /********************************* GENERAL *******************************/
+  
+  .container{
+    width: 85%;
+    margin: 2rem auto;
+    flex-direction: row;
+}
+.container .hdabt{
+    font-size: 100px;
+    width: 100%;   
+}
+
+/********************************* about *******************************/
+.container .info{
+    width: 100%;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+
+.container .details{
+    width: 100%;
+    
+}
+
+.container .know{
+    width: 40%;
+    top:6%;
+    left: 30%;
+    font-size: 24px;
+}
+
+.container .number .Danime{
+    width: 25%;
+    padding: 2rem 1rem;
+}
+
+
+/************************* services ***************************************/
+
+.container .what{
+    width: 40%;
+    top:6%;
+    left: 28%;
+    font-size: 24px;
+
+}
+
+.container .ser_content{
+    width: 48%;
+    padding: 1rem;
+}
+
+    /*********************** summary***************************************/
+
+    .container .resume{
+        width: 40%;
+        top:1.5%;
+        left: 26%;
+        font-size: 36px;
+
+    }
+
+    .summary .container{
+        flex-direction: row;
+    }
+
+    .summary .container .education , .summary .container .experience{
+        width: 50%;
+
+    }
+
+
+    .summary .container .skills{
+        flex-direction: row;
+    }
+
+    .summary .container .skills div{
+        width: 50%;
+    }
+
+    .summary .container button{
+        width: 25%;
+        margin: auto;
+    }
+
+
+
+
+/*********************** porfolio ************************************/
+
+.container .work{
+    width: 40%;
+    top:4%;
+    left: 28%;
+    font-size: 24px;
+
+}
+
+.portfolio .container{
+    justify-content: space-around;
+}
+
+.container .img{
+    width: 40%;
+}
+
+
+
+.container .ithree{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.container .ithree .i{
+    width: 40%;
+}
+
+.container .ithree .img6{
+    align-self: start;
+}
+
+
+/********************************  testominal ******************************/
+.container .client_speak{
+    width: 40%;
+    top:5%;
+    left: 30%;
+    font-size: 24px;
+
+}
+
+
+
+
+/************************** contact ************************************/
+
+
+.container .touch{
+    width: 40%;
+    top:2.5%;
+    left: 30%;
+    font-size: 24px;
+
+}
+
+.container .form{
+    width: 60%;
+    flex-direction: column;
+    
+}
+
+
+.container .form .in{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.container .address{
+    width: 40%;
+    text-align: left;
+}
+
+.container .address .contact{
+    margin: auto;
+}
+
+
+
+
+.container .left{
+    width: 60%;
+    margin: auto;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+  /********************************* GENERAL *******************************/
+  
+  .container{
+    width: 85%;
+    margin: 2rem auto;
+    flex-direction: row;
+}
+.container .hdabt{
+    font-size: 118px;
+    width: 100%;   
+}
+
+/********************************* about *******************************/
+.container .info{
+    width: 65%;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+
+.container .details{
+    width: 35%;
+    
+}
+
+.container .know{
+    width: 40%;
+    top:5%;
+    right: 40%;
+    font-size: 36px;
+}
+
+.container .number .Danime{
+    width: 25%;
+    padding: 2rem 1rem;
+}
+
+
+/************************* services ***************************************/
+
+.container .what{
+    width: 40%;
+    top:6%;
+    left: 28%;
+    font-size: 24px;
+
+}
+
+.container .ser_content{
+    width: 48%;
+    padding: 1rem;
+}
+
+    /*********************** summary***************************************/
+
+    .container .resume{
+        width: 40%;
+        top:1.5%;
+        left: 26%;
+        font-size: 36px;
+
+    }
+
+    .summary .container{
+        flex-direction: row;
+    }
+
+    .summary .container .education , .summary .container .experience{
+        width: 45%;
+
+    }
+
+
+    .summary .container .skills{
+        flex-direction: row;
+    }
+
+    .summary .container .skills div{
+        width: 45%;
+    }
+
+
+    .summary .container button{
+        width: 20%;
+        margin: auto;
+    }
+
+
+
+/*********************** summary***************************************/
+
+.container .resume{
+    width: 40%;
+    top:4%;
+    left: 28%;
+    font-size: 36px;
+
+}
+
+
+
+
+/*********************** porfolio ************************************/
+
+.container .work{
+    width: 40%;
+    top:2%;
+    left: 28%;
+    font-size: 36px;
+
+}
+
+.portfolio .container{
+    justify-content: space-around;
+}
+
+    .container .img{
+        width: 30%;
+    }
+
+    .container .ithree{
+        flex-direction: column;
+        align-content:flex-start;
+    }
+    .container .ithree .i{
+        width: 100%;
+    }
+
+    /********************************  testominal ******************************/
+    .container .client_speak{
+        width: 40%;
+        top:5%;
+        left: 30%;
+        font-size: 36px;
+
+    }
+
+    .container .member{
+        width: 45%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+
+/************************** contact ************************************/
+
+
+    .container .touch{
+        width: 40%;
+        top:6%;
+        left: 30%;
+        font-size: 36px;
+
+    }
+
+    .container .form{
+        width: 60%;
+        flex-direction: column;
+    
+    }
+
+
+    .container .form .in{
+        width: 48%;
+        margin-bottom: 1rem;
+    }
+
+
+    .container .address{
+        width: 40%;
+        text-align: left;
+    }
+
+    .container .address .contact{
+        margin: auto;
+    }
+
+    .fin .container{
+        justify-content: space-between
+    }
+
+
+    .container .left , .container .right{
+        width: 50%;
+        padding: 0;
+        margin: 1rem 0;
+    }
+    .container .right{
+        text-align: right;
+    }
+
+
+}

@@ -1,0 +1,45 @@
+
+
+.fin .container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem auto;
+}
+.fin .container a{
+    text-decoration: none;
+}
+
+
+
+.left,.right{
+    width: 30%;
+    font-weight: 550;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+
+.left a{
+      color: var(--fontclr);
+}
+
+
+.right a{
+    padding: 0 1.5rem;
+    transition: all 1s;
+}
+
+
+.right .t{
+    border-right: 2px black solid;
+}
+
+
+
+.right a:hover{
+    color: var(--fontclr);
+
+}

@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 85%;
+    margin: 2rem auto;
+    color: #4c4d4d;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    position: relative;
+}
+
+.container .hdabt{
+    font-size: 118px;
+    color: #dee3e4 !important;
+    width: 100%;
+    opacity: 0.4;
+    position: relative;
+      
+}
+
+
+.know{
+    font-size: 36px;
+    opacity: 1;
+    color: black;
+    position: absolute;
+    left: 40%;
+    top: 9%;
+}
+
+.hdabt::after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    right: 47%;
+    top: 70%;
+} 
+
+
+
+.container .info,.details{
+    text-align: left;
+    line-height: 1.8;
+}
+
+
+
+.info{
+    width: 65%;
+    padding-right: 1rem;
+}
+
+.info h2{
+    color: #20c997;
+}
+
+
+.info h2::before{
+    content: "I'm ";
+    color: black;
+}
+
+
+.info h2::after{
+    content: " a Web Developer";
+    color: black;
+}
+
+
+.details{
+    width: 35%;
+    
+}
+
+.details .d h3, .details .d p , .details .d a{
+    font-size: 20px;
+}
+
+
+.details .d{
+    display: flex;
+    padding: 0 1rem ;
+    border-bottom:1px #4c4d4d solid;
+}
+
+
+
+
+.details .d a{
+    text-decoration: none;
+    color: #4c4d4d;
+    align-self: center;
+}
+
+
+
+.details button{
+    margin-top: 1rem;
+    padding: 0.8em 3em;
+    font-weight: bold;
+    background-color: var(--fontclr);
+    color: white;
+    border: var(--fontclr) 2px solid;
+    border-radius: 50rem;
+    font-size: 16px;
+    transition: all 1s;
+}
+
+
+
+.details button:hover{
+    background-color: rgb(33, 224, 33);
+    cursor: pointer;
+}
+
+
+
+.container .number{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+
+
+.container .Danime{
+    width: 25%;
+    padding: 2rem 1rem;
+}
+
+.container .Danime h2{
+    font-size: 45px;
+    color: #4c4d4d;
+}
+
+.num10 h2::before{
+    content: "10+";
+    animation: counter10 2s;
+}
+
+.num250 h2::before{
+    content: "250+";
+    font-size: 45px;
+    animation: counter250 2s;
+}
+
+.num650 h2::before{
+    content: "650+";
+    font-size: 45px;
+    animation: counter650 2s;
+}
+
+.num38 h2::before{
+    content: "38";
+    font-size: 45px;
+    animation: counter38 2s;
+}
+
+
+

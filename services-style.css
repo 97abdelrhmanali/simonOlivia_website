@@ -1,0 +1,52 @@
+
+.services{
+    background-color: var(--divgray);
+}
+.container{
+    position: relative;
+}
+
+
+.container .hdabt{
+    font-size: 118px;
+    color: #dee3e4 !important;
+    width: 100%;
+    opacity: 0.4;
+    position: relative;
+      
+}
+
+
+.what{
+    font-size: 36px;
+    opacity: 1;
+    color: black;
+    position: absolute;
+    left: 44%;
+    top: 9%;
+}
+
+.hdabt::after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #20c997;
+    position: absolute;
+    right: 47%;
+    top: 70%;
+} 
+
+
+
+.ser_content{
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    line-height: 1.8;
+}
+
+
+
+.ser_content div{
+    text-align: left;
+}
